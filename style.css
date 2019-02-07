@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: tan;
+  font-family: Helvetica;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: serif;
+  font-size: 18px;
+  background-color: oldlace;
+}
+
+h1,
+h2,
+.other {
+  color: brown;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto 0px auto;
+  line-height: 150%;
+}
+
+.blog-post {
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+  position: relative;
+  font-family: Verdana;
+}
+
+.blog-post img {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin: 15px;
+}
+
+.other-posts {
+  width: 25%;
+  float: left;
+}
+
+.other {
+  margin-bottom: 10px;
+}
+
+.main-text {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.author-box {
+  border-top: 1px solid brown;
+  padding-top: 20px;
+}
+
+.author-box img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  float: left;
+}
+
+.author-text {
+  font-size: 22px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.social-links {
+  margin: 20px 0 auto 20px;
+  float: left;
+}
+
+.social-links i {
+  font-size: 40px;
+  color: purple;
+  margin-right: 5px;
+}
+
+.date {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
