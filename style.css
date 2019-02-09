@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: tan;
+  color: rgb(131, 81, 131);
   font-family: Helvetica;
 }
 
@@ -58,6 +58,7 @@ p {
   width: auto;
   float: left;
   margin: 15px;
+  filter: sepia(100%);
 }
 
 .other-posts {
